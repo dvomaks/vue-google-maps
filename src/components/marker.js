@@ -56,6 +56,10 @@ const props = {
   visible: {
     twoWay: true,
     default: true
+  },
+  id: {
+    type: String,
+    twoWay: false
   }
 }
 
